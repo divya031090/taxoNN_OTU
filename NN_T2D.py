@@ -187,7 +187,7 @@ for index, row in train_dataset.iterrows():
   #print("train_data is:/n",batch_xs)
   batch_ys = reshape(response, (-1, 2))
   batch_ys_app.append(batch_ys)
-  train_epochs=1
+  train_epochs=400
   for epoch in range(train_epochs):
      sess.run([train_step,cross_entropy], feed_dict={x: batch_xs, y_: batch_ys})
   #print (sess.run(correct_prediction1, feed_dict={x: asarray(test_input), y_: asarray(test_output)}))
