@@ -190,7 +190,7 @@ for index, row in train_dataset.iterrows():
   #print("train_data is:/n",batch_xs)
   batch_ys = reshape(response, (-1, 2))
   batch_ys_app.append(batch_ys)
-  train_epochs=1 # For the convenience of checking if the code is working. Change to 400 to train.
+  train_epochs=400 # For the convenience of checking if the code is working. Change to 400 to train.
   for epoch in range(train_epochs):
      sess.run([train_step,cross_entropy], feed_dict={x: batch_xs, y_: batch_ys})
   #print (sess.run(correct_prediction1, feed_dict={x: asarray(test_input), y_: asarray(test_output)}))
@@ -201,7 +201,7 @@ for index, row in train_dataset.iterrows():
   df4 = df4.append(df5)
   #print("Accuracy:",accuracy.eval({x: asarray(batch_xs_app), y_: asarray(batch_ys_app)}))
   acc=acc+accuracy.eval({x: asarray(batch_xs), y_: asarray(batch_ys)})
-i=i*0.33
+i=i
 df3.to_csv("b2.csv",index=False)  
 df4.to_csv("a2.csv",index=False)  
 ensemb_acc=acc/i
