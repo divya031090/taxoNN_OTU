@@ -53,8 +53,6 @@ corr_sum_df<-as.data.frame(as.numeric(corr_sum))
 corr_sum_df$ID<-1:nrow(corr_sum_df) 
 corr_sum_sorted<-corr_sum_df[order(corr_sum_df$`as.numeric(corr_sum)`),]
 
-wilcox.test(sorted_dis$ID, corr_sum_sorted$ID, paired = TRUE, alternative = "greater")
-
 corr_mat=cor(t(T2D_data_firmicutes),method="spearman",use = "complete.obs")
 
 corr_mat=cor(t(corr_sum_sorted$ID), t(sorted_dis$ID),  method = c("spearman"))
