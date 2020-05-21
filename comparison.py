@@ -38,21 +38,6 @@ print ("Accuracy of Naive Bayes Classifier: "+str(clf3.score(P,Q)))
 clf4 = GaussianNB().fit(X, Y.values.ravel())
 print ("Accuracy of Gaussian  Bayes Classifier: "+str(clf4.score(P,Q)))
 
-clf5 = linear_model.LinearRegression()
-clf5.fit(X, Y_new.ravel())
-print ("Accuracy of Linear Regression: "+str(clf5.score(P,Q_new)))
-
-
-clf6 = linear_model.Ridge()
-clf6.fit(X, Y_new.ravel())
-print ("Accuracy of Ridge Regression: "+str(clf4.score(P,Q)))
-
-clf7 = linear_model.Lasso()
-clf7.fit(X, Y_new.ravel())
-print ("Accuracy of Lasso Regression: "+str(clf4.score(P,Q)))
-
-
-
 
 
 
