@@ -26,12 +26,20 @@ Divya Sharma, Andrew D Paterson, Wei Xu, TaxoNN: ensemble of neural networks on 
 
 **Bibtex:**
 @article{sharma2020taxonn,
+
   title={TaxoNN: Ensemble of Neural Networks on Stratified Microbiome Data for Disease Prediction},
+  
   author={Sharma, Divya and Paterson, Andrew D and Xu, Wei},
+  
   journal={Bioinformatics},
+  
   volume = {36},
+  
   number = {17},
+  
   pages = {4544-4550},
+  
   year={2020},
+  
   month = {05}
 }
