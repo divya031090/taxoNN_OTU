@@ -16,3 +16,22 @@ Prerequisites
 6.	NumPy pandas 
 7.	Keras
 
+Citation
+
+If you find our work useful in your research, please cite our work:
+
+TaxoNN: Ensemble of Neural Networks on Stratified Microbiome Data for Disease Prediction, Bioinformatics, May 2020
+
+Divya Sharma, Andrew D Paterson, Wei Xu, TaxoNN: ensemble of neural networks on stratified microbiome data for disease prediction, Bioinformatics, Volume 36, Issue 17, 1 September 2020, Pages 4544–4550, https://doi.org/10.1093/bioinformatics/btaa542
+
+Bibtex:
+@article{sharma2020taxonn,
+  title={TaxoNN: Ensemble of Neural Networks on Stratified Microbiome Data for Disease Prediction},
+  author={Sharma, Divya and Paterson, Andrew D and Xu, Wei},
+  journal={Bioinformatics},
+  volume = {36},
+  number = {17},
+  pages = {4544-4550},
+  year={2020},
+  month = {05}
+}
