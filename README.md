@@ -25,6 +25,7 @@ If you find our work useful in your research, please cite our work:
 Divya Sharma, Andrew D Paterson, Wei Xu, TaxoNN: ensemble of neural networks on stratified microbiome data for disease prediction, Bioinformatics, Volume 36, Issue 17, 1 September 2020, Pages 4544–4550, https://doi.org/10.1093/bioinformatics/btaa542
 
 **Bibtex:**
+ 
   @article{sharma2020taxonn,
   title={TaxoNN: Ensemble of Neural Networks on Stratified Microbiome Data for Disease Prediction},
   author={Sharma, Divya and Paterson, Andrew D and Xu, Wei},  
